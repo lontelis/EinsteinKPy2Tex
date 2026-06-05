@@ -68,7 +68,7 @@ The software is designed for educators, students, and researchers needing rapid,
 
 Users can easily modify the code for custom metrics by changing:
 1. Coordinate definitions and symbols
-2. The $4 \times 4$ metric tensor array
+2. The $4 \times 4$ or $D \times D$ symmetric metric tensor array
 
 Examples are provided for Minkowski spacetime and general spherically symmetric metrics.
 
