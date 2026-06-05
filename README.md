@@ -231,7 +231,7 @@ https://github.com/lontelis/Einsteinpy_to_latex
 
 This README provides all necessary information for users to install, run, cite, and understand your code. Remember to replace `[YourUsername]` with your actual GitHub username.
 
-# EinsteinKpy2Tex (formerly Einsteinpy_to_latex)
+# EinsteinKPy2Tex (formerly Einsteinpy_to_latex)
 
 **NEW NAME!** Same great code, now with:
 - Kretschmann scalar (K)
