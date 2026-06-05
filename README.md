@@ -67,13 +67,13 @@ ds^2 = -(1 - 2GM/(c^2 r)) c^2 dt^2 + (1 - 2GM/(c^2 r))^{-1} dr^2 + r^2 dθ^2 + r
 After running either script, compile the generated LaTeX file:
 
 ```bash
-latex einstein_to_latex.tex
+latex flrw_EinsteinKPy2Tex.tex
 ```
 
 Or use pdflatex for PDF output:
 
 ```bash
-pdflatex einstein_to_latex.tex
+pdflatex flrw_EinsteinKPy2Tex.tex
 ```
 
 ## Customizing for Your Own Metric
@@ -154,20 +154,20 @@ Both scripts support these options:
 
 ```bash
 # Show citations
-python einstein_to_latex.py --cite
+python flrw_EinsteinKPy2Tex.py --cite
 
 # Generate BibTeX file
-python einstein_to_latex.py --generate_bib
+python flrw_EinsteinKPy2Tex.py --generate_bib
 
 # Check version
-python einstein_to_latex.py --version
+python flrw_EinsteinKPy2Tex.py --version
 ```
 
 ## Output
 
 The scripts generate:
-- `einstein_to_latex.tex` - LaTeX document with all tensor components (FLRW metric)
-- `Sch_einsteinpy_to_latex.tex` - LaTeX document for Schwarzschild metric
+- `flrw_EinsteinKPy2Tex.tex` - LaTeX document with all tensor components (FLRW metric)
+- `schw_EinsteinKPy2Texx.tex` - LaTeX document for Schwarzschild metric
 - `citations.bib` - BibTeX citation file (when using `--generate_bib`)
 
 ## Tensor Quantities Computed
@@ -181,7 +181,7 @@ The scripts generate:
 
 ## Example Output
 
-When you run `python einstein_to_latex.py`, the LaTeX file will contain:
+When you run `python flrw_EinsteinKPy2Tex.py`, the LaTeX file will contain:
 
 ```latex
 \subsection{Christoffel symbols $\Gamma^{\mu}_{\nu\rho}$ (non-zero)}
