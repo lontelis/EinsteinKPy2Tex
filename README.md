@@ -164,3 +164,7 @@ https://github.com/lontelis/Einsteinpy_to_latex
 ```
 
 This README provides all necessary information for users to install, run, cite, and understand your code. Remember to replace `[YourUsername]` with your actual GitHub username.
+
+## Acknowledgments
+
+Developed with assistance from DeepSeek AI. Citations and physics verified by author.
