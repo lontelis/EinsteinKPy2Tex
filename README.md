@@ -165,7 +165,7 @@ MIT License
 
 ## Repository
 
-https://github.com/[YourUsername]/Einsteinpy_to_latex
+https://github.com/lontelis/Einsteinpy_to_latex
 ```
 
 This README provides all necessary information for users to install, run, cite, and understand your code. Remember to replace `[YourUsername]` with your actual GitHub username.
