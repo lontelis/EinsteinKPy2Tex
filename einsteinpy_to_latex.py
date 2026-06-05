@@ -211,6 +211,7 @@ metric_arr = [
     [0, 0, a**2, 0],
     [0, 0, 0, a**2],
 ]
+
 metric = MetricTensor(metric_arr, coords, "ll", name="FLRWMetric")
 
 # 3. Compute tensors
@@ -229,7 +230,6 @@ def latex_nonzero(tensor_obj, tensor_symbol, rank):
     """
     arr = tensor_obj.tensor()  # sympy Array or Matrix
     non_zero = []
-    #Dimensions_number_of_coordinates
     D_coords = np.size(coords)
 
     if rank == 2:
@@ -247,7 +247,11 @@ def latex_nonzero(tensor_obj, tensor_symbol, rank):
                 for k in range(D_coords):
                     val = sp.simplify(arr[i, j, k])
                     if val != 0:
-                        label = f"{{{coord_names[i]}}}_{{{coord_names[j]}{coord_names[k]}}}"
+                        # Separate indices with spaces for better LaTeX parsing
+                        upper = coord_names[i]
+                        lower_j = coord_names[j]
+                        lower_k = coord_names[k]
+                        label = f"{{{upper}}}_{{{lower_j} {lower_k}}}"
                         non_zero.append(f"{tensor_symbol}^{label} &= {sp.latex(val)} \\\ ")
     elif rank == 4:
         # Riemann: arr[i, j, k, l] -> R^i_{jkl}
@@ -257,7 +261,12 @@ def latex_nonzero(tensor_obj, tensor_symbol, rank):
                     for l in range(D_coords):
                         val = sp.simplify(arr[i, j, k, l])
                         if val != 0:
-                            label = f"{{{coord_names[i]}}}_{{{coord_names[j]}{coord_names[k]}{coord_names[l]}}}"
+                            # Separate indices with spaces for better LaTeX parsing
+                            upper = coord_names[i]
+                            lower_j = coord_names[j]
+                            lower_k = coord_names[k]
+                            lower_l = coord_names[l]
+                            label = f"{{{upper}}}_{{{lower_j} {lower_k} {lower_l}}}"
                             non_zero.append(f"{tensor_symbol}^{label} &= {sp.latex(val)} \\\ ")
     else:
         return "Unsupported rank"
