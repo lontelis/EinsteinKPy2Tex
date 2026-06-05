@@ -167,4 +167,4 @@ This README provides all necessary information for users to install, run, cite, 
 
 ## Acknowledgments
 
-Developed with assistance from DeepSeek AI. Citations and physics verified by author.
+Developed with assistance from DeepSeek AI. Citations, mathematics, and physics verified by author.
