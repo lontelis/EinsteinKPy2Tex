@@ -11,7 +11,7 @@ If you use this code in your research, please cite:
 
 2. **Ribeiro, S., Bapat, A., Tandon, A., & EinsteinPy Developers (2020)**. EinsteinPy: A Python Package for General Relativity. *Journal of Open Source Software*, 5(51), 2356. https://doi.org/10.21105/joss.02356
 
-3. **Ntelis, P. (2026)**. Einsteinpy_to_latex: FLRW and Schwarzschild Metric Tensor Calculator (Version 1.0). GitHub. https://github.com/[YourUsername]/Einsteinpy_to_latex
+3. **Ntelis, P. (2026)**. Einsteinpy_to_latex: FLRW and Schwarzschild Metric Tensor Calculator (Version 1.0). GitHub. https://github.com/lontelis/Einsteinpy_to_latex
 
 ## Dependencies
 
