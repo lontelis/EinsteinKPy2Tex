@@ -13,7 +13,7 @@ If you use this software in your research, please cite:
 
 2. **Einstein, A. (1915)**. Die Feldgleichungen der Gravitation. *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 844-847.
 
-3. **Ribeiro, S., et al. (2020)**. EinsteinPy: A Python Package for General Relativity. *Journal of Open Source Software*, 5(51), 2356. https://doi.org/10.21105/joss.02356 (arXiv:2005.11288)
+3. **Ribeiro, S., et al. (2020)**. EinsteinPy: A Python Package for General Relativity. *Journal of Open Source Software*, 5(51), 2356. [https://doi.org/10.21105/joss.02356](https://arxiv.org/abs/2005.11288) (arXiv:2005.11288)
 
 ## Dependencies
 
