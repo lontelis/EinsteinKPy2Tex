@@ -41,7 +41,7 @@ pip install ipython sympy numpy einsteinpy
 Run the FLRW metric calculator:
 
 ```bash
-python einstein_to_latex.py
+python flrw_EinsteinKPy2Tex.py
 ```
 
 This computes tensors for the metric:
@@ -54,7 +54,7 @@ ds^2 = -c^2 dt^2 + a(t)^2 (dx^2 + dy^2 + dz^2)
 Run the Schwarzschild metric calculator:
 
 ```bash
-python Sch_einsteinpy_to_latex.py
+python schw_EinsteinKPy2Tex.py
 ```
 
 This computes tensors for the metric:
