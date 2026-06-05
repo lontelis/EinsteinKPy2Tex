@@ -1,4 +1,4 @@
-# EinsteinKpy2Tex
+# EinsteinKPy2Tex
 Einsteinpy_to_latex  Python tool computing GR tensors (Christoffel, Riemann, Ricci, Einstein) for FLRW &amp; Schwarzschild metrics. Exports non-zero components to LaTeX. Includes citations for Einstein (1915) &amp; EinsteinPy (arXiv:2005.11288).
 
 A Python tool for computing general relativity tensor quantities and exporting them to LaTeX format. Supports FLRW and Schwarzschild metrics.
