@@ -3,15 +3,17 @@ Einsteinpy_to_latex  Python tool computing GR tensors (Christoffel, Riemann, Ric
 
 A Python tool for computing general relativity tensor quantities and exporting them to LaTeX format. Supports FLRW and Schwarzschild metrics.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20563702.svg)](https://doi.org/10.5281/zenodo.20563702)
+
 ## Citations
 
-If you use this code in your research, please cite:
+If you use this software in your research, please cite:
 
-1. **Einstein, A. (1915)**. Die Feldgleichungen der Gravitation. *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 844-847.
+1. **Ntelis, P. (2026)**. EinsteinKPy2Tex: A Python Tool for Computing and Exporting General Relativity Tensors to LaTeX (Version v1). Zenodo. https://doi.org/10.5281/zenodo.20563702
 
-2. **Ribeiro, S., Bapat, A., Tandon, A., & EinsteinPy Developers (2020)**. EinsteinPy: A Python Package for General Relativity. *Journal of Open Source Software*, 5(51), 2356.
+2. **Einstein, A. (1915)**. Die Feldgleichungen der Gravitation. *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 844-847.
 
-3. **Ntelis, P. (2026)**. Einsteinpy_to_latex: FLRW and Schwarzschild Metric Tensor Calculator (Version 1.0). GitHub. https://github.com/lontelis/EinsteinKPy2Tex
+3. **Ribeiro, S., et al. (2020)**. EinsteinPy: A Python Package for General Relativity. *Journal of Open Source Software*, 5(51), 2356. https://doi.org/10.21105/joss.02356 (arXiv:2005.11288)
 
 ## Dependencies
 
