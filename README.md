@@ -74,6 +74,70 @@ Or use pdflatex for PDF output:
 pdflatex einstein_to_latex.tex
 ```
 
+## Customizing for Your Own Metric
+
+To compute tensors for a **simple custom metric**, modify the following sections in `einstein_to_latex.py`:
+
+### 1. Define coordinates and functions:
+```python
+# 1. Coordinates and functions
+t, x, y, z = sp.symbols("t x y z")
+coords = [t, x, y, z]
+coord_names = ['t', 'x', 'y', 'z']  # for LaTeX labels
+
+a = sp.Function("a")(t)  # Example: scale factor
+c = sp.Symbol("c", positive=True, real=True)  # Speed of light
+```
+
+### 2. Define your metric components:
+```python
+# 2. Metric (4D)
+metric_arr = [
+    [-c**2, 0, 0, 0],      # g_tt component
+    [0, a**2, 0, 0],       # g_xx component
+    [0, 0, a**2, 0],       # g_yy component
+    [0, 0, 0, a**2],       # g_zz component
+]
+```
+
+### Example: Minkowski Metric (flat spacetime)
+```python
+# 1. Coordinates
+t, x, y, z = sp.symbols("t x y z")
+coords = [t, x, y, z]
+c = sp.Symbol("c", positive=True, real=True)
+
+# 2. Minkowski metric
+metric_arr = [
+    [-c**2, 0, 0, 0],
+    [0, 1, 0, 0],
+    [0, 0, 1, 0],
+    [0, 0, 0, 1],
+]
+```
+
+### Example: Custom Spherically Symmetric Metric
+```python
+# 1. Coordinates
+t, r, theta, phi = sp.symbols("t r theta phi")
+coords = [t, r, theta, phi]
+coord_names = ['t', 'r', '\\theta', '\\phi']
+
+# 2. Define metric functions
+A = sp.Function("A")(r)
+B = sp.Function("B")(r)
+
+# 3. Custom metric
+metric_arr = [
+    [-A(r), 0, 0, 0],
+    [0, B(r), 0, 0],
+    [0, 0, r**2, 0],
+    [0, 0, 0, r**2 * sp.sin(theta)**2],
+]
+```
+
+After modifying these sections, run the script to generate LaTeX output for your custom metric.
+
 ## Command Line Options
 
 Both scripts support these options:
