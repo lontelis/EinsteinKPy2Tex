@@ -47,7 +47,7 @@ This computes tensors for the metric:
 ds^2 = -c^2 dt^2 + a(t)^2 (dx^2 + dy^2 + dz^2)
 ```
 
-### Schwarzschild Metric
+### Schwarzschild Metric (Black Holes)
 
 Run the Schwarzschild metric calculator:
 
