@@ -1,4 +1,4 @@
-# Einsteinpy_to_latex
+# EinsteinKpy2Tex
 Einsteinpy_to_latex  Python tool computing GR tensors (Christoffel, Riemann, Ricci, Einstein) for FLRW &amp; Schwarzschild metrics. Exports non-zero components to LaTeX. Includes citations for Einstein (1915) &amp; EinsteinPy (arXiv:2005.11288).
 
 A Python tool for computing general relativity tensor quantities and exporting them to LaTeX format. Supports FLRW and Schwarzschild metrics.
@@ -229,6 +229,18 @@ https://github.com/lontelis/Einsteinpy_to_latex
 
 This README provides all necessary information for users to install, run, cite, and understand your code. Remember to replace `[YourUsername]` with your actual GitHub username.
 
-## Acknowledgments
+# EinsteinKpy2Tex (formerly Einsteinpy_to_latex)
+
+**NEW NAME!** Same great code, now with:
+- Kretschmann scalar (K)
+- Geodesic equations  
+- Better LaTeX formatting
+
+The "K" in EinsteinKpy2Tex honors the Kretschmann scalar, 
+a key curvature invariant for identifying singularities.
+
+Old repository: https://github.com/lontelis/Einsteinpy_to_latex (redirects here)
+
+# Acknowledgments
 
 Developed with assistance from DeepSeek AI. Citations, mathematics, and physics verified by author.
