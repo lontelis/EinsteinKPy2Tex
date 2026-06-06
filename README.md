@@ -229,8 +229,6 @@ MIT License
 https://github.com/lontelis/Einsteinpy_to_latex
 ```
 
-This README provides all necessary information for users to install, run, cite, and understand your code. Remember to replace `[YourUsername]` with your actual GitHub username.
-
 # EinsteinKPy2Tex (formerly Einsteinpy_to_latex)
 
 **NEW NAME!** Same great code, now with:
